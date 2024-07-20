@@ -13,7 +13,7 @@ public class MixinClientWorldProperties {
 
     @Overwrite
     public double getSkyDarknessHeight(HeightLimitView world) {
-        return world.getBottomY() - 64.0;
+        return world.getBottomY() - 128.0;
     }
 
 }
